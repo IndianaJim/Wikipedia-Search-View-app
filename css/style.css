@@ -1,0 +1,13 @@
+.container {
+  margin-top: 2%;
+  font-family: 'Copse', serif;
+}
+
+.resultList {
+  margin-top: 2%;
+  text-align: left;
+}
+
+.details {
+  color: black;
+}

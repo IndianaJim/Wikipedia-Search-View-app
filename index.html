@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>wiki viewer</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <!--
+Wikipedia Search Viewer project developed for a FreeCodeCamp Front-End Development Challenge.
+Uses HTML, CSS, BootStrap, Animate.css, Jquery, Ajax & Javascript.
+wikipedia API from wikipedia.org.
+-->
+<header>
+  <link href="https://fonts.googleapis.com/css?family=Copse" rel="stylesheet">
+</header>
+
+<body>
+  <div class="container">
+    <div class="searchHeader text-center">
+      <img class="animated bounceInUp" src="https://c1.staticflickr.com/9/8237/28686811192_6da467a495_m.jpg" width="120" height="120" alt="wikipedia globe">
+      <h1 class="animated bounceInRight">Wikipedia Search</h1>
+      <div class="animated bounceInLeft">
+        <input id="searchTerm" name="search" placeholder="search..." autofocus>
+        <button id="search">Search</button>
+        <button id="random" onclick="window.location='https://en.wikipedia.org/wiki/Special:Random';">Random</button>
+      </div>
+      <!-- end search items div-->
+      <div id="output" class="resultList"></div>
+    </div>
+    <!-- end div searchHeader -->
+  </div>
+  <!-- end container div -->
+
+</body>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
